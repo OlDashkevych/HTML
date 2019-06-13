@@ -1,22 +1,21 @@
-html {
-    box-sizing: border-box;
-}
-
 *, 
 *::before
 *::after {
 box-sizing: inherit;
 }
 
-img{
+.image{
     display: block;
     width: 100%;
     height: auto;
+    margin-bottom: 32px;
 }
 
-p{ 
+.paragraf{ 
     margin: 0;
     padding: 0;
+    font-size: 14px;
+    line-height: 1.5em;
 }
 
 .conteiner{
@@ -33,7 +32,7 @@ section.conteiner {
     margin-top: 100px;
 }
 
-nav a{
+.link{
     text-transform: uppercase;
     text-decoration: none;
     font-size: 14px;
@@ -43,7 +42,6 @@ nav a{
 .ref-1{
     display: inline-block;
     margin-left: 166px;
-    color: #25b4f5; 
 }
 .ref-2 {
     display: inline-block;
@@ -57,21 +55,25 @@ nav a{
     display: inline-block;
     margin-left: 94px;
 }
+.link:hover{
+   color: rgb(88, 233, 233);
+}
 
-    .text {
-        font-size: 30px;
-        margin-bottom: 44px;
-        padding: 0;
-    }
+.text {
+    font-size: 30px;
+    margin-bottom: 44px;
+    padding: 0;
+}
 
-article{
+.artpost{
     display: inline-block;
     width: 420px;
     margin: 0;
     padding: 0;
+    vertical-align: top;
 }
 
-.art-1, .art-3, .art-5{
+.art-1, .art-3, .art-5 {
     margin-right: 30px;
 }
 .art-3, .art-4 {
@@ -79,10 +81,6 @@ article{
 }
 .art-5, .art-6 {
     margin-top: 140px;
-}
-
-.image {
-    margin-bottom: 32px;
 }
 
 .button {
@@ -99,11 +97,6 @@ article{
     text-decoration: none;
     text-transform: uppercase;
     font-size: 14px;
-    }
-
-    .paragraf {
-        font-size: 14px;
-        line-height: 1.5em;
     }
 
 .button-box{
