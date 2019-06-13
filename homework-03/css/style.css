@@ -71,7 +71,7 @@ article{
     padding: 0;
 }
 
-.teaartm-1, .art-3, .art-5{
+.art-1, .art-3, .art-5{
     margin-right: 30px;
 }
 .art-3, .art-4 {
@@ -81,11 +81,11 @@ article{
     margin-top: 140px;
 }
 
-.picture {
+.image {
     margin-bottom: 32px;
 }
 
-.load-button {
+.button {
     border: 1px solid #dddcd7;
     padding: 0;
     width: 164px;
@@ -101,7 +101,7 @@ article{
     font-size: 14px;
     }
 
-    .info {
+    .paragraf {
         font-size: 14px;
         line-height: 1.5em;
     }
