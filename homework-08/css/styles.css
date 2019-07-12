@@ -1,0 +1,296 @@
+/* montserrat-700 - latin */
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Montserrat Bold'), local('Montserrat-Bold'),
+         url('../fonts/montserrat-v13-latin-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/montserrat-v13-latin-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* roboto-300 - latin */
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    src: local('Roboto Light'), local('Roboto-Light'),
+         url('../fonts/roboto-v19-latin-300.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/roboto-v19-latin-300.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+html{
+    box-sizing: border-box;
+}
+*, *::after, *::before{
+    box-sizing: inherit;
+}
+img{
+    display: block;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+.banner{
+    background-image: url(../img/mob_banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 540px;
+    padding-top: 20px;
+}
+.register_list{
+    display: flex;
+    justify-content: space-between;
+    width: 170px;
+    margin: 0 auto; 
+
+}
+.register_link{
+    text-decoration: none;
+    color: #fff;
+    font-size: 14px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold; 
+    cursor: pointer;
+    line-height: 2.2;
+    width: 90px;
+    height: 36px;
+    text-align: center;
+}
+.link_with_border{
+    border: 3px solid #fff;
+    border-radius: 20px;
+}
+.title_1{
+    font-size: 20px;
+    font-family: "Montserrat", sans-serif;
+    color: #ffffff;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center; 
+    margin: 118px 0 0;  
+}
+.title_2{
+    font-size: 30px;
+    font-family: "Montserrat", sans-serif;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center; 
+    width: 91%; 
+    margin: 34px auto 0;  
+    line-height: 1.1;
+    text-align: center;
+}
+.title_description{
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    color: #ffffff;
+    text-align: center; 
+    margin: 10px auto 0;
+    line-height: 1.1;   
+}
+.button_1{
+    display: block;
+    width: 280px;
+    height: 40px;
+    border-style: none;
+    background-color: #ff4e50;
+    font-size: 14px;
+    font-family: "Montserrat", sans-serif;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    line-height: 2.2;
+    text-align: center;    
+    border-radius: 20px;    
+    margin: 18px auto 0;
+    cursor: pointer;
+}
+/* partner_list */
+.title_for_section{
+    font-size: 22px;
+    font-family: "Montserrat", sans-serif;
+    color: rgb(51, 51, 51);
+    font-weight: bold;
+    line-height: 1.2;
+    text-align: center;
+    margin: 68px 0 12px;
+}
+.partner_list{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.img_box{
+    position: relative;
+    height: 121px;
+    width: 121px; 
+    margin: 0 auto;
+}
+.icon{
+    position: absolute;
+    right: 0px;
+    bottom: 0;
+    display: block;
+    height: 40px;
+    width: 40px;
+    border: 4px solid #fff;
+    border-radius: 20px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.icon_1{
+    background-color: #ff4e50;
+    background-image: url(../img/icon_tv.png);
+}
+.icon_2{
+    background-color: #ffa507;
+    background-image: url(../img/icon_chem.png);
+}
+.icon_3{
+    background-color: #1cd7ad;
+    background-image: url(../img/icon_coffe.png);
+}
+.icon_4{
+    background-color: #4e73db;
+    background-image: url(../img/iocn_tlgrm.png);
+}
+.name_title{
+    font-size: 14px;
+    font-family: "Montserrat", sans-serif;
+    color: rgb(51, 51, 51);
+    font-weight: bold;
+    line-height: 1.2;
+    text-align: center;   
+    margin: 20px 0 0;
+}
+.item_description{
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    font-family: "Roboto", sans-serif;
+    color: rgb(102, 102, 102);
+    line-height: 1.2;
+    text-align: center;  
+    padding: 0 52px; 
+    margin: 15px 0 28px; 
+}
+.button_2{
+    display: block;
+    width: 280px;
+    height: 40px;
+    border-style: none;
+    border: 2px solid #ff4e50;
+    border-radius: 20px;
+    font-size: 14px;
+    font-family: "Montserrat", sans-serif;
+    color: #ff4e50;
+    font-weight: bold;
+    line-height: 1.2;
+    text-align: center;    
+    cursor: pointer;  
+    margin: 0 auto 56px;
+    background-color: #fff;
+}
+@media(min-width: 768px){
+    .wrapper{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row-reverse;
+    }
+    .banner{
+        background-image: url(../img/tabl_banner.png);
+        background-color: rgba(26, 25, 21, 1);  
+        height: 700px;     
+    }
+    .register_list{
+        margin: 16px 50px 0 0;
+    }
+    .title_1{
+        margin: 24px 0 0 50px;
+    }
+    .title_2{
+        margin: 142px auto 0; 
+        font-size: 52px;     
+        width: 66%;
+        line-height: 1.2;     
+    }
+    .title_description{
+        font-size: 24px; 
+        margin: 30px auto 0;
+    }  
+    .button_1{
+        margin: 35px auto 0;
+        width: 226px;
+    }  
+    /* FOR SECTION */
+    .article{
+        padding: 0 138px;
+    }
+    .title_for_section{
+        margin: 70px 0 30px;
+    }
+    .partner_list{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        flex-basis: 492px;
+    }
+    .second_item{
+        order: 1;
+    }
+    .third_item, .fourth_item{
+        order: 2;
+    }
+    .partner_item{
+        width: 236px;
+    }
+    .item_description{
+        padding: 0 10px 0 22px; 
+        margin: 15px 0 54px; 
+    }
+    .partner_item:nth-of-type(even) .item_description{
+        margin: 15px 0 36px; 
+    }
+    .button_2{
+        margin: 0 auto 40px;
+    }
+}
+@media(min-width: 1200px){
+    .wrapper{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row-reverse;
+        padding: 0 250px;
+    }
+    .banner{
+        background-image: url(../img/des-foto.png);
+        background-color: rgba(26, 25, 21, 1);  
+        height: 700px;     
+    }
+    .register_list{
+        margin: 18px 0 0;
+    }
+    .title_1{
+        margin: 28px 0 0;
+    }
+    .title_2{
+        width: 40%;
+        margin: 142px auto 0;   
+    }
+    .title_description{
+        margin: 22px auto 0;  
+    }
+    .partner_list{
+        flex-basis: 940px;
+    }
+    .partner_item{
+        width: 220px;
+    }
+    .item_description{
+        padding: 0 2px;
+    }
+    .button_2{
+        width: 192px;
+        height: 40px;
+    }
+}
