@@ -40,7 +40,6 @@ img{
     justify-content: space-between;
     width: 170px;
     margin: 0 auto; 
-
 }
 .register_link{
     text-decoration: none;
@@ -53,8 +52,9 @@ img{
     width: 90px;
     height: 36px;
     text-align: center;
+    transition: border 200ms linear;
 }
-.link_with_border{
+.register_link:hover{
     border: 3px solid #fff;
     border-radius: 20px;
 }
@@ -66,6 +66,7 @@ img{
     text-transform: uppercase;
     text-align: center; 
     margin: 118px 0 0;  
+    cursor: pointer;
 }
 .title_2{
     font-size: 30px;
@@ -104,6 +105,11 @@ img{
     border-radius: 20px;    
     margin: 18px auto 0;
     cursor: pointer;
+    transition: box-shadow 200ms ease-in-out, background-color 200ms ease-in-out;
+}
+.button_1:hover{
+    box-shadow: 0px 8px 15px rgba(255, 78, 80, .3);
+    background-color: #fc6366;
 }
 /* partner_list */
 .title_for_section{
@@ -190,6 +196,11 @@ img{
     cursor: pointer;  
     margin: 0 auto 56px;
     background-color: #fff;
+    transition: color 200ms linear, background-color 200ms linear;
+}
+.button_2:hover{
+    color: #fff;
+    background-color: #fc6366;
 }
 @media(min-width: 768px){
     .wrapper{
@@ -233,7 +244,7 @@ img{
         display: flex;
         justify-content: space-between;
         flex-wrap: wrap;
-        flex-basis: 492px;
+        width: 492px;
     }
     .second_item{
         order: 1;
