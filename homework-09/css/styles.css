@@ -1,0 +1,270 @@
+/* montserrat-700 - latin */
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Montserrat Bold'), local('Montserrat-Bold'),
+         url('../fonts/montserrat-v13-latin-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/montserrat-v13-latin-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* roboto-300 - latin */
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    src: local('Roboto Light'), local('Roboto-Light'),
+         url('../fonts/roboto-v19-latin-300.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/roboto-v19-latin-300.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+html{
+    box-sizing: border-box;
+}
+*, *::after, *::before{
+    box-sizing: inherit;
+}
+img{
+    display: block;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+.banner{
+    background-image: url(../img/mob_banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 540px;
+    padding-top: 20px;
+}
+.register_link{
+    text-decoration: none;
+    color: #fff;
+    font-size: 14px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold; 
+    cursor: pointer;
+    line-height: 2.2;
+    width: 90px;
+    height: 36px;
+    text-align: center;
+    border-radius: 20px;
+    border: 3px solid transparent;
+    transition: border 200ms linear;
+}
+.register_link:hover{
+    border: 3px solid #fff;
+}
+.title_1{
+    display: block;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: "Montserrat", sans-serif;
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center; 
+    margin: 112px auto 0;  
+    cursor: pointer;
+    line-height: 1.7;
+}
+.title_2{
+    font-size: 30px;
+    font-family: "Montserrat", sans-serif;
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center; 
+    margin: 24px auto 0;  
+    line-height: 1.2;    
+    letter-spacing: -1px;    
+}
+.title_description{
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    color: #fff;
+    text-align: center; 
+    margin: 10px auto 0;
+    line-height: 1.1;  
+    padding: 0 24px; 
+}
+.button_1{
+    display: block;
+    width: 280px;
+    height: 40px;
+    border-style: none;
+    background-color: #ff4e50;
+    font-size: 14px;
+    font-family: "Montserrat", sans-serif;
+    color: #fff;
+    font-weight: bold;
+    line-height: 2.2;
+    text-align: center;
+    border: 2px solid transparent;    
+    border-radius: 20px;    
+    margin: 18px auto 0;
+    cursor: pointer;
+    transition: background-color 200ms linear, color 200ms linear, border 200ms linear;
+}
+.button_1:hover{
+    background-color: #fff;
+    color: #ff4e50;
+    border: 2px solid #ff4e50;
+}
+/* partner_list */
+.title_for_section{
+    font-size: 22px;
+    font-family: "Montserrat", sans-serif;
+    color: rgb(51, 51, 51);
+    font-weight: bold;
+    line-height: 1.2;
+    text-align: center;
+    margin: 68px 0 12px;
+}
+.img_box{
+    position: relative;
+    height: 121px;
+    width: 121px; 
+    margin: 0 auto;
+}
+.icon{
+    position: absolute;
+    right: 0px;
+    bottom: 0;
+    display: block;
+    height: 40px;
+    width: 40px;
+    border: 4px solid #fff;
+    border-radius: 20px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.icon_1{
+    background-color: #ff4e50;
+    background-image: url(../img/icon_tv.png);
+}
+.icon_2{
+    background-color: #ffa507;
+    background-image: url(../img/icon_chem.png);
+}
+.icon_3{
+    background-color: #1cd7ad;
+    background-image: url(../img/icon_coffe.png);
+}
+.icon_4{
+    background-color: #4e73db;
+    background-image: url(../img/iocn_tlgrm.png);
+}
+.name_title{
+    font-size: 14px;
+    font-family: "Montserrat", sans-serif;
+    color: rgb(51, 51, 51);
+    font-weight: bold;
+    line-height: 1.2;
+    text-align: center;   
+    margin: 20px 0 0;
+}
+.item_description{
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    font-family: "Roboto", sans-serif;
+    color: rgb(102, 102, 102);
+    line-height: 1.2;
+    text-align: center;  
+    width: 210px;
+    margin: 15px auto 28px; 
+}
+.button_2{
+    display: block;
+    width: 280px;
+    height: 40px;
+    border-style: none;
+    border: 2px solid #ff4e50;
+    border-radius: 20px;
+    font-size: 14px;
+    font-family: "Montserrat", sans-serif;
+    color: #ff4e50;
+    font-weight: bold;
+    line-height: 1.2;
+    text-align: center;    
+    cursor: pointer;  
+    margin: 0 auto 56px;
+    background-color: #fff;
+    transition: color 200ms linear, background-color 200ms linear;
+}
+.button_2:hover{
+    color: #fff;
+    background-color: #fc6366;
+}
+@media(min-width: 768px){
+    .banner{
+        background-image: url(../img/tabl_banner.png);
+        background-color: rgba(26, 25, 21, 1);  
+        height: 700px;  
+        padding-top: 38px;   
+    }
+    .title_1{
+        margin: 0;
+    }
+    .title_2{
+        margin: 142px auto 0; 
+        font-size: 52px;     
+        width: 500px;
+        line-height: 1.2;     
+    }
+    .title_description{
+        font-size: 24px; 
+        margin: 30px auto 0;
+    }  
+    .button_1{
+        margin: 35px auto 0;
+        width: 226px;
+    }  
+    /* FOR SECTION */
+    .title_for_section{
+        margin: 70px 0 30px;
+    }
+    .third_item, .fourth_item{
+        order: 2;
+    }
+    .item_description{
+        margin: 15px auto 54px; 
+    }
+    .partner_item:nth-of-type(even) .item_description{
+        margin: 15px auto 36px; 
+    }
+    .button_2{
+        margin: 0 auto 40px;
+    }
+}
+@media(min-width: 1200px){
+    .wrapper{
+        width: 940px;
+        margin: 0 auto;
+    }
+    .banner{
+        background-image: url(../img/des-foto.png);
+        background-color: rgba(26, 25, 21, 1);  
+        height: 700px;
+        padding-top: 38px;    
+    }
+    .title_1{
+        margin: 0;
+        text-align: left;
+    }
+    .title_2{
+        margin: 142px auto 0;   
+    }
+    .title_description{
+        margin: 22px auto 0;  
+    }
+    .item_description{
+        padding: 0 2px;
+    }
+    .button_2{
+        width: 192px;
+        height: 40px;
+        margin: 0 auto 74px;
+    }
+}
