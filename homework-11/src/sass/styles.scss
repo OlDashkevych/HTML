@@ -1,0 +1,19 @@
+/*
+   Import partials below
+*/
+@import './helpers/constants.scss';
+@import './normalize';
+@import './helpers/mixins.scss';
+@import './helpers/placeholders.scss';
+
+// Components
+
+@import './components/base.scss';
+@import './components/fonts.scss';
+@import './components/header-navigation.scss';
+@import './components/team-list.scss';
+@import './components/header-info.scss';
+@import './components/article-list.scss';
+@import './components/footer.scss';
+@import './components/media.scss';
+@import './components/section.scss';

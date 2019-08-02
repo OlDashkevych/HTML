@@ -1,0 +1,37 @@
+/* SECTION */
+.section{
+  &::after {
+    display: block;
+    content: '';
+    background-color: #e5e5e5;
+    height: 1px;
+    width: 100%;
+    margin-top: 80px;
+  }
+
+  &__title-1 {
+    @include text-decor($kaushan-script-font, 24px, $gray-color, center, 1.2, none, 700);
+    margin: 46px 0 0;
+  }
+
+  &__title-2 {
+    @include text-decor($montserrat-font, 30px, $gray-color, center, 1.2, uppercase, 700);
+    margin: 18px 0 0;
+  }
+
+  &__head::after {
+    display: block;
+    content: '';
+    width: 60px;
+    height: 3px;
+    background-color: $pink-color;
+    margin: 40px auto 0;
+  }
+
+  &__decription {
+    @include text-decor($roboto-font, 15px, $light-gray-color, center, 1.6, none, normal);
+    width: 81%;
+    margin: 46px auto 94px;
+  }
+}
+

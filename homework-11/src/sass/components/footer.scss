@@ -1,0 +1,55 @@
+/* FOOTER */
+.footer {
+  @extend %flex-row;
+  align-items: center;
+  padding: 10px 0;
+
+  &__info {
+    @include text-decor($montserrat-font, 14px, $gray-color, left, 1.2, none, normal);
+  }
+
+  &__info-text {
+    display: inline-block;
+    margin: 0;
+  }
+
+  &__info-link {
+    display: inline-block;
+    text-decoration: none;
+    transition: color 200ms linear;
+
+    &:hover {
+      color: $pink-color;
+    }
+  }
+
+  &__input-box {
+    font-size: 0;
+  }
+
+  &__button {
+    @include text-decor($montserrat-font, 14px, $white-color, center, 1.2, uppercase, 700);
+    width: 150px;
+    height: 40px;
+    background-color: #1abc9c;
+    border-style: none;
+    padding: 0;
+    cursor: pointer;
+    transition: background-color 200ms linear;
+
+    &:hover {
+      background-color: #95e1d3;
+    }
+  }
+
+  &__input {
+    @include text-decor($roboto-font, 15px, $default-text-color, left, 1.6, none, normal);
+    border-style: none;
+    width: 230px;
+    height: 40px;
+    padding: 0;
+    border: 1px solid #e7e7e7;
+    padding-left: 12px;
+    font-style: italic;
+  }
+}
